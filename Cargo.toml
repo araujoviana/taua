@@ -1,0 +1,8 @@
+[package]
+name = "taua"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+calloop = "0.14.4"
+smithay = { version = "0.7.0", features = ["backend_winit", "wayland_frontend"] }
